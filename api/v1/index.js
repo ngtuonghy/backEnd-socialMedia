@@ -3,6 +3,7 @@ import auth from "./auth/authRoute.js";
 import comment from "./comment/commentRoute.js";
 import user from "./user/userRoute.js";
 import notification from "./notifications/notificationRoute.js";
+import cloudinary from "./cloudinary/cloudinaryRoute.js";
 import { Router } from "express";
 
 const v1 = Router();
@@ -12,5 +13,6 @@ user(v1);
 auth(v1);
 notification(v1);
 comment(v1);
+cloudinary(v1);
 
 export default v1;

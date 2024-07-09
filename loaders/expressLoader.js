@@ -1,11 +1,6 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-// import post from "./../modules/v1/post/postRoute.js";
-// import auth from "./../modules/v1/auth/authRoute.js";
-// import comment from "./../modules/v1/comment/commentRoute.js";
-// import user from "./../modules/v1/users/userRoute.js";
-// import notification from "./../modules/v1/notifications/notificationRoute.js";
 import env from "../config/env.js";
 import api from "../api/index.js";
 
